@@ -1,0 +1,7 @@
+name = "uptime-response"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "uptime-response"
+route = { pattern = "uptime.hoshiyomi.web.id/*", zone_name = "hoshiyomi.web.id" }
